@@ -6,17 +6,15 @@
 //  Copyright © 2017 Marquette University. All rights reserved.
 //
 
-import UIKit
+/*import UIKit
 import Firebase
-
-class ViewController: UIViewController {
+*/
+/*class ViewController: MainScreenViewController {
     
-    @IBOutlet weak var licLabel: UILabel!
-    @IBOutlet weak var signOutButton: UIButton!
     
-    override func viewDidLoad() {
+   override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Do any additional setup after loading the view, typically from a nib.
     }
 
     @IBAction func signOutButtonTapped(_ sender: UIButton) {
@@ -31,4 +29,4 @@ class ViewController: UIViewController {
 
 }
 
-
+*/

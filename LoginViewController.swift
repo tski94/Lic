@@ -40,6 +40,7 @@ class LoginViewController: UIViewController {
                     }
                     alertController.addAction(okAction)
                     self.present(alertController, animated:true, completion: nil)
+                    self.hideProgress()
                 }
             }
         }
@@ -52,11 +53,12 @@ class LoginViewController: UIViewController {
         
     }
     override func viewDidAppear(_ animated: Bool) {
+        self.hideProgress()
         if FIRAuth.auth()?.currentUser != nil {
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "Welcome")
             self.present(vc!, animated: true, completion: nil)
         }
-        self.hideProgress()
+        
         
     }
     
