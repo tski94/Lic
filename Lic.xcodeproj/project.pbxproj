@@ -12,7 +12,6 @@
 		3D114F001E5A888000D4AC6F /* Lic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D114EFE1E5A888000D4AC6F /* Lic.xcdatamodeld */; };
 		3D114F021E5A888000D4AC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D114F011E5A888000D4AC6F /* Assets.xcassets */; };
 		3D114F051E5A888000D4AC6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D114F031E5A888000D4AC6F /* LaunchScreen.storyboard */; };
-		3D114F101E5A888100D4AC6F /* LicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D114F0F1E5A888100D4AC6F /* LicTests.swift */; };
 		3D114F1B1E5A888100D4AC6F /* LicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D114F1A1E5A888100D4AC6F /* LicUITests.swift */; };
 		3D123B6E1E6CDA150064E8ED /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D123B6D1E6CDA150064E8ED /* CameraViewController.swift */; };
 		3D80E2351E6DECDB0054EE60 /* LicFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D80E2341E6DECDB0054EE60 /* LicFeedViewController.swift */; };
@@ -34,6 +33,7 @@
 		3D80E2601E6E59CC0054EE60 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D80E24E1E6E59CC0054EE60 /* IQToolbar.swift */; };
 		3D80E2611E6E59CC0054EE60 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D80E24F1E6E59CC0054EE60 /* IQUIView+IQKeyboardToolbar.swift */; };
 		3D80E2621E6E59CC0054EE60 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D80E2511E6E59CC0054EE60 /* IQKeyboardManager.bundle */; };
+		3D8B27AC1E77CAB800BA1CD5 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B27AB1E77CAB800BA1CD5 /* LoginTextField.swift */; };
 		3DC382181E5F75000090C7FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC382171E5F75000090C7FE /* LoginViewController.swift */; };
 		3DC3821A1E5F750E0090C7FE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC382191E5F750E0090C7FE /* RegisterViewController.swift */; };
 		3DF62C021E5DF37900F0B999 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DF62C011E5DF37900F0B999 /* GoogleService-Info.plist */; };
@@ -94,6 +94,8 @@
 		3D80E24E1E6E59CC0054EE60 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
 		3D80E24F1E6E59CC0054EE60 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		3D80E2511E6E59CC0054EE60 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		3D8B27AB1E77CAB800BA1CD5 /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		3D8B27AE1E7C817000BA1CD5 /* Lic-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lic-Bridging-Header.h"; sourceTree = "<group>"; };
 		3DC382171E5F75000090C7FE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3DC382191E5F750E0090C7FE /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3DF62C011E5DF37900F0B999 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				3D114F061E5A888000D4AC6F /* Info.plist */,
 				3D114EFE1E5A888000D4AC6F /* Lic.xcdatamodeld */,
 				3DF62C011E5DF37900F0B999 /* GoogleService-Info.plist */,
+				3D8B27AE1E7C817000BA1CD5 /* Lic-Bridging-Header.h */,
 			);
 			path = Lic;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				3DC382171E5F75000090C7FE /* LoginViewController.swift */,
+				3D8B27AB1E77CAB800BA1CD5 /* LoginTextField.swift */,
 				3DC382191E5F750E0090C7FE /* RegisterViewController.swift */,
 				3D123B6D1E6CDA150064E8ED /* CameraViewController.swift */,
 				3D80E2341E6DECDB0054EE60 /* LicFeedViewController.swift */,
@@ -483,6 +487,7 @@
 				3D80E25F1E6E59CC0054EE60 /* IQTitleBarButtonItem.swift in Sources */,
 				3D80E2591E6E59CC0054EE60 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
 				3D80E25B1E6E59CC0054EE60 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				3D8B27AC1E77CAB800BA1CD5 /* LoginTextField.swift in Sources */,
 				3DC3821A1E5F750E0090C7FE /* RegisterViewController.swift in Sources */,
 				3D80E2561E6E59CC0054EE60 /* IQUIViewController+Additions.swift in Sources */,
 				3D80E2611E6E59CC0054EE60 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
@@ -504,7 +509,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D114F101E5A888100D4AC6F /* LicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

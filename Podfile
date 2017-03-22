@@ -12,6 +12,8 @@ target 'Lic' do
    pod ‘Firebase/Storage’
    pod ‘Firebase/Messaging’
    pod ‘ChameleonFramework/Swift’
-   
+   pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git'
+ 
+
 
 end
